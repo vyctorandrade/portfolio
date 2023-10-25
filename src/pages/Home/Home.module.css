@@ -1,0 +1,41 @@
+/* CSS da page Home */
+.apresentacao{
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao img{
+    height: 500px;
+}
+
+.apresentacao p {
+    font-size: 53px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.apresentacao span{
+    color: var(--red);
+}
+
+.apresentacao button{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--red);
+    color: white;
+    cursor: pointer;
+}
+
+.apresentacao button:hover{
+    background-color: var(--primary);
+}
+
+
