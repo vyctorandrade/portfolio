@@ -39,3 +39,12 @@
 }
 
 
+
+@media (min-width: 320px) and (max-width: 800px) {
+   .apresentacao p{
+    font-size: 30px;
+    font-weight: bolder;
+    
+   }
+  
+   }

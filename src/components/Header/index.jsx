@@ -12,9 +12,9 @@ function Header() {
 
             <Routes>
                 <Route exact path='/'> Home </Route>
-                <Route exact path='/'> Home </Route>
-                <Route exact path='/'> Home </Route>
-                <Route exact path='/'> Home </Route>
+                <Route exact path='/'> Sobre </Route>
+                <Route exact path='/'> Projetos </Route>
+                <Route exact path='/'> Contatos </Route>
             </Routes>
         </Router>
         <div>
