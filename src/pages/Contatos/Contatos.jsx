@@ -7,7 +7,7 @@ function Contatos() {
   return (
     <>
     
-    <NavBar/>
+   
     <h1>Contatos</h1>
     <Footer/>
     </>
