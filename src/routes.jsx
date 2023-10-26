@@ -4,6 +4,7 @@ import Sobre from './pages/Sobre/Sobre'
 import Projetos from './pages/Projetos/Projetos'
 import Contatos from './pages/Contatos/Contatos'
 import NavBar from './components/NavBar/NavBar'
+import Page404 from './pages/Page404/Page404'
 
 
 function AppRoutes(){
@@ -16,6 +17,7 @@ function AppRoutes(){
     <Route path='/sobre' element = {<Sobre/>}></Route>
     <Route path='/projetos' element = {<Projetos/>}></Route>
     <Route path='/contatos' element = {<Contatos/>}></Route>
+    <Route path='*' element = {<Page404/>}></Route>
     </Routes>
     </BrowserRouter>
 
