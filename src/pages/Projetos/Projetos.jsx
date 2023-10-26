@@ -1,10 +1,13 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
+import Container from '../../components/Container/Container'
 
 function Projetos() {
   return (
     <>
-    <h1>Projetos</h1>
+    <Container>
+    <h2>Projetos</h2>
+    </Container>
     <Footer/>
     </>
   )

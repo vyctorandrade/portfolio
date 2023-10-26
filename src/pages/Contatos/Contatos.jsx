@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../../components/NavBar/NavBar'
 import Footer from '../../components/Footer/Footer'
+import Container from '../../components/Container/Container'
 
 
 function Contatos() {
@@ -8,7 +9,9 @@ function Contatos() {
     <>
     
    
-    <h1>Contatos</h1>
+    <Container>
+    <h2>Contatos</h2>
+    </Container>
     <Footer/>
     </>
     
