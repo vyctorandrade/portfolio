@@ -5,6 +5,8 @@ import Projetos from './pages/Projetos/Projetos'
 import Contatos from './pages/Contatos/Contatos'
 import NavBar from './components/NavBar/NavBar'
 import Page404 from './pages/Page404/Page404'
+import Container from './components/Container/Container'
+import Footer from './components/Footer/Footer'
 
 
 function AppRoutes(){
@@ -12,13 +14,16 @@ function AppRoutes(){
    
     <BrowserRouter>    
         <NavBar/>
-    <Routes>
-    <Route exact path='/' element = {<Home/>}></Route>
-    <Route path='/sobre' element = {<Sobre/>}></Route>
-    <Route path='/projetos' element = {<Projetos/>}></Route>
-    <Route path='/contatos' element = {<Contatos/>}></Route>
-    <Route path='*' element = {<Page404/>}></Route>
-    </Routes>
+        <Container>   
+            <Routes>
+                <Route exact path='/' element = {<Home/>}></Route>
+                <Route path='/sobre' element = {<Sobre/>}></Route>
+                <Route path='/projetos' element = {<Projetos/>}></Route>
+                <Route path='/contatos' element = {<Contatos/>}></Route>
+                <Route path='*' element = {<Page404/>}></Route>
+            </Routes>
+        </Container> 
+        <Footer/>    
     </BrowserRouter>
 
     

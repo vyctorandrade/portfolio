@@ -1,6 +1,4 @@
 
-import Footer from '../../components/Footer/Footer'
-import Container from '../../components/Container/Container'
 import styles from './Contatos.module.css'
 import { GoMail } from 'react-icons/go'
 import { BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs'
@@ -11,7 +9,7 @@ function Contatos() {
     <>
     
    
-    <Container>
+    
     <section className={styles.contatos}>
       <h2>Contatos</h2>
         <h3>Entre em contato</h3>
@@ -37,8 +35,6 @@ function Contatos() {
         </a>
         </div>
     </section>
-    </Container>
-    <Footer/>
     </>
     
     
