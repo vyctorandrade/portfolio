@@ -11,7 +11,7 @@ function NavBar() {
 
         
         <Link to = '/'>
-        <span>vyAndrade.dev</span>
+        <span>VYandrade.dev</span>
         </Link>
         
         <nav>
