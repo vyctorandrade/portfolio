@@ -13,11 +13,12 @@
     align-items: center;
     gap: 3rem;
     margin-bottom: 1.5rem;
+    
 }
 
 .bio span {
     color: var(--red);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .bio strong {
@@ -46,4 +47,10 @@
 
 .icones img {
     height: 50px;
+}
+
+.avatar{
+ height: 360px;   
+
+
 }
