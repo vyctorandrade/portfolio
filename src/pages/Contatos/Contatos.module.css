@@ -26,4 +26,5 @@
 
 .icone:hover{
     color: var(--primary);
+    transition: all 0.5s;
 }
