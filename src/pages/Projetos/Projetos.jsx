@@ -12,7 +12,7 @@ function Projetos() {
   // Criado userEffect com a função de busca pra api do github "api.github.com/users/vyctorandrade/repos"
   useEffect(() => { 
       const buscarRepositorios = async () => {
-        const resposta = await fetch ('https://api.github.com/users/vyctorandrade/repos')
+        const resposta = await fetch ('https://api.github.com/users/vyctorandrade/repos?page=1&per_page=50')
         const dados = await resposta.json()
         setRepositorios(dados)
       }
@@ -20,7 +20,7 @@ function Projetos() {
   }, [])
 
   return (
-    <section className={StyleSheet.projetos} >
+    <section className={styles.projetos} >
     <h2>Projetos</h2>
     
     {/* Se tiver um ou mais repositórios, vai ser gerado sections com card, senão vai ser gerado só um parágrafo. */}
