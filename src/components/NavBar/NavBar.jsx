@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
-
+import logo1 from './images/logo1.png'
 
 
 
@@ -11,7 +11,7 @@ function NavBar() {
 
         
         <Link to = '/'>
-        <span>VYandrade.dev</span>
+        <img src={logo1} alt="Ícone da logo" />
         </Link>
         
         <nav>
