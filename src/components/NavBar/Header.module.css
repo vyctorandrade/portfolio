@@ -28,11 +28,10 @@
 }
 
 .header img{
-    width: 70%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 35%;
-
-
+    
+    width: 118px;
+    display: flex;
+    
    
 }
 
