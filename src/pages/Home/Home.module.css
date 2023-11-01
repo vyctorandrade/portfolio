@@ -83,13 +83,13 @@
 
 
 
-/* Verificar responsividade Home */
+/* Verificar responsividade Home ta dando errado. */
 
-@media (min-width: 320px) and (max-width: 1200px) {
+/* @media (min-width: 320px) and (max-width: 1200px) { */
  
 
 
-    .home p{
+    /* .home p{
         
         font-size: 25px ;
         width: 300px;
@@ -105,8 +105,8 @@
         margin-left: 100px; */
        
         
-    }
-    .home img{
+    /* } */ 
+    /* .home img{
        
         width: 300px;
         position:fixed;
@@ -114,7 +114,7 @@
 		top:40%;
 		margin-left:-110px;
 		margin-top:-65px;
-       
+        */
        
        
        
@@ -129,7 +129,7 @@
         display: flex;
         position:fixed; */
  
-    
+/*     
     }
 
     .btn{
@@ -139,7 +139,7 @@
     
     }
     
-   } 
+   }  */
 
 
 
