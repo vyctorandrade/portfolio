@@ -1,9 +1,11 @@
 .projetos h2{
     text-align:  center;
+    padding: 90px 90px 30px 10px;
 }
 
 .lista{
-    width: 100%;
+    width: 80%;
+    padding-left: 250px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
