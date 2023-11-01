@@ -93,10 +93,10 @@
     }
     .home img{
        
-        width: 250px;
+        width: 300px;
         position:fixed;
 		left:50%;
-		top:35%;
+		top:40%;
 		margin-left:-110px;
 		margin-top:-65px;
        
