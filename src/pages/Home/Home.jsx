@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
-    
-   
     <section className={styles.home}>
     <div className={styles.apresentacao}>
         <p>
@@ -26,7 +24,6 @@ function Home() {
       </figure>
     </div>
     </section>
- 
     </>
   )
 }
