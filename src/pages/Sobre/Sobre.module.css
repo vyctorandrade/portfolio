@@ -54,3 +54,102 @@
 
 
 }
+
+
+
+/* Celular. */
+
+@media (min-width: 300px) and (max-width: 600px) { 
+ 
+
+    .sobre{
+        padding-left: 45%;
+        padding-right: 100%;
+        position: fixed;
+        
+    }
+
+    .textos p{
+        font-size: 13px;  
+        margin-left: -280px;
+
+        
+    } 
+    .textos h2{
+        font-size: 25px;
+        margin-left: -280px;
+    }
+
+
+    .bio{
+        height: 300px;
+        display: flex;
+    }
+
+    .avatar{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        margin-right: 130%;
+        
+    }
+
+    .techs h3{
+        font-size: 25px;
+        margin-right: -230px;
+        margin-top: -10px;
+        
+    }
+
+    .icones{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        margin-left: 250px;
+        margin-top: -10px;
+        gap: 1em;
+        position: fixed;
+      
+        
+    }
+
+    
+   }  
+
+   /* Tablet  */
+   
+@media (min-width: 768px ) and (max-width: 992px) { 
+ 
+
+  
+
+    .home p{
+        margin-bottom: 150px;
+        font-size: 40px;  
+        position: fixed;
+
+  
+    } 
+    .home img{
+        
+        width: 300px;
+        display: flex;
+        padding-top: 100%;
+        margin-right: 50%;
+        
+    
+    }
+
+    .btn{
+        
+        font-size: 25px;
+        display: flex;
+
+       
+        
+    
+    }
+    
+   }  
+
+
