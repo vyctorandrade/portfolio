@@ -73,7 +73,7 @@
 
     .textos p{
         height: auto; 
-        font-size: 40%;
+        font-size: 90%;
      
    
       
@@ -92,9 +92,8 @@
     }
 
     .techs h3{
-        font-size: 14px;
-        margin-right: -200px;
-        margin-top: 45px;
+        height: auto; 
+        font-size: 40%;
         
     }
 
