@@ -78,6 +78,7 @@
 
 .techs h3{
     font-size: 27px;
+
     
 }
 
@@ -86,6 +87,9 @@
     }
     .icones img {
         height: 40px;
+        display: flex;
+        margin-top: -150px;
+        
     }
 
 
