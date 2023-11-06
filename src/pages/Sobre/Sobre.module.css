@@ -64,7 +64,8 @@
 
     .sobre{
         position: fixed;
-        margin: 20%;
+        margin: 10%;
+
 
 
       
@@ -76,6 +77,7 @@
     .textos p{
          
         font-size: 12px;
+   
          
     } 
     .textos h2{
@@ -84,9 +86,10 @@
     }
 
     .avatar{
-        max-width: 58%;
+       
+        width: 200px;
         height: auto;
-        padding-inline: 3.2rem;
+        
     }
 
 
