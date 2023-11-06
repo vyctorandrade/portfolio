@@ -75,7 +75,7 @@
     .textos p{
          
         font-size: 55%;
-        margin-left: -50%;
+        margin-left: -90%;
 
 
      
@@ -94,11 +94,11 @@
     .avatar{
         max-width: 58%;
         height: auto;
-        padding-inline: 2.5rem;
+        padding-inline: 3.2rem;
     }
 
     .techs h3{
-         margin-left: -50%;
+         margin-left: -40%;
         font-size: 14px;
         
     }
