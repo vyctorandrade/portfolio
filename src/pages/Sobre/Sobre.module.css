@@ -56,6 +56,9 @@
 }
 
 
+
+
+/* tablet */
 @media (max-width: 768px) {
     .bio {
         flex-direction: column;
@@ -64,8 +67,7 @@
         padding-block: 40px;
     }
     .bio img {
-        max-width: 100%;
-      
+        max-width: 50%;
     }
 }
 
@@ -89,55 +91,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-@media (min-width: 300px) and (max-width: 600px) { 
-    
-
-
-    .bio {
-        flex-direction: column;
-        padding-inline: 20px;
-        gap: 1rem;
-        padding-block: 40px;
-    }
-    .bio img {
-        
-        margin-top: 8%;
-        max-width: 40%;
-        height: 50%;
-      
-    }
-
-
-
-
-
-    .icones {
-        gap: 0.5rem;
-    }
-    .icones img {
-        height: 40px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-}
 
 
 
