@@ -63,34 +63,32 @@
  
 
     .sobre{
-        padding-left: 55%;
-        padding-right: 100%;
-        position: fixed;
+        flex-direction: column;
+
       
         
     }
 
+ 
+
     .textos p{
-        font-size: 8px;  
-        margin-left: -300px;
+        height: auto; 
+        font-size: 40%;
+     
+   
       
 
         
     } 
     .textos h2{
         font-size: 14px;
-        margin-left: -300px;
+       
     }
 
     .avatar{
-        width: 130px;
-        height: 130px;
-        display: flex;
-        margin-top: -110px;
-        margin-right: -25%;
-        margin-left: 500px;
-        
-        
+        max-width: 45%;
+        height: auto;
+        padding-inline: 2.5rem;
     }
 
     .techs h3{
@@ -101,13 +99,8 @@
     }
 
     .icones{
-        width: 150px;
-        height: 150px;
-        display: flex;
-        margin-left: 190px;
-        margin-top: 40px;
         gap: 1em;
-        position: fixed;
+   
       
         
     }
