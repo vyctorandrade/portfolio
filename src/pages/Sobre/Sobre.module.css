@@ -56,100 +56,36 @@
 }
 
 
-
-/* Celular. */
-
-@media (min-width: 300px) and (max-width: 600px) { 
- 
-
-    .sobre{
-        position: fixed;
-        margin: 20%;
-        display: block;
-
-
-
-      
-        
+@media (max-width: 768px) {
+    .bio {
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+        padding-block: 40px;
     }
-
- 
-
-    .textos p{
-         
-        font-size: 12px;
-        margin-right: 50px;
-
-       
-   
-         
-    } 
-    .textos h2{
-        font-size: 14px;
-       
+    .bio img {
+        max-width: 100%;
     }
+}
 
-    .avatar{
-       
-        width: 150px;
-        height: auto;
-        padding: 0px;
-        
+/* mobile m */
+@media (max-width: 480px) {
+    .icones {
+        gap: 0.5rem;
     }
-
-
-    /* Icones  */
-    .techs h3{
-         margin-left: 20%;
-        font-size: 14px;
-        
+    .icones img {
+        height: 40px;
     }
+}
 
-    .icones{
-        gap: 1.5em;
-        margin-left: 20%;
-   
-      
-        
-    }
 
-    
-   }  
 
-   /* Tablet  */
-   
-@media (min-width: 768px ) and (max-width: 992px) { 
- 
 
-  
 
-    .home p{
-        margin-bottom: 150px;
-        font-size: 40px;  
-        position: fixed;
 
-  
-    } 
-    .home img{
-        
-        width: 300px;
-        display: flex;
-        padding-top: 100%;
-        margin-right: 50%;
-        
-    
-    }
 
-    .btn{
-        
-        font-size: 25px;
-        display: flex;
 
-       
-        
-    
-    }
-    
-   }  
+
+
 
 
