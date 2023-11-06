@@ -65,6 +65,7 @@
     .sobre{
         position: fixed;
         margin: 10%;
+        display: flex;
 
 
 
