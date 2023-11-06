@@ -64,8 +64,8 @@
 
     .sobre{
         position: fixed;
-        margin: 10%;
-        display: flex;
+        margin: 20%;
+        display: block;
 
 
 
@@ -96,13 +96,14 @@
 
     /* Icones  */
     .techs h3{
-         margin-left: -40%;
+         margin-left: 20%;
         font-size: 14px;
         
     }
 
     .icones{
-        gap: 1em;
+        gap: 1.5em;
+        margin-left: 20%;
    
       
         
