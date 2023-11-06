@@ -63,7 +63,8 @@
  
 
     .sobre{
-        flex-direction: column;
+        position: fixed;
+        margin: 20%;
 
 
       
@@ -74,20 +75,11 @@
 
     .textos p{
          
-        font-size: 55%;
-        margin-left: -90%;
-
-
-     
-   
-      
-
-        
+        font-size: 12px;
+         
     } 
     .textos h2{
         font-size: 14px;
-          margin-left: -50%;
-
        
     }
 
@@ -97,6 +89,8 @@
         padding-inline: 3.2rem;
     }
 
+
+    /* Icones  */
     .techs h3{
          margin-left: -40%;
         font-size: 14px;
