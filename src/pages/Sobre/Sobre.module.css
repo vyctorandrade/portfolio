@@ -71,13 +71,14 @@
     }
 
     .textos p{
-        font-size: 10px;  
+        font-size: 8px;  
         margin-left: -300px;
+      
 
         
     } 
     .textos h2{
-        font-size: 18px;
+        font-size: 14px;
         margin-left: -300px;
     }
 
@@ -93,7 +94,7 @@
     }
 
     .techs h3{
-        font-size: 18px;
+        font-size: 14px;
         margin-right: -200px;
         margin-top: 45px;
         
