@@ -65,6 +65,7 @@
     .sobre{
         flex-direction: column;
 
+
       
         
     }
@@ -73,7 +74,7 @@
 
     .textos p{
         height: auto; 
-        font-size: 90%;
+        font-size: 55%;
      
    
       
@@ -86,7 +87,7 @@
     }
 
     .avatar{
-        max-width: 45%;
+        max-width: 60%;
         height: auto;
         padding-inline: 2.5rem;
     }
