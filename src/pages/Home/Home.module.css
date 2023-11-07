@@ -80,20 +80,20 @@
   
 
     .home p{
-        margin-bottom: 230px;
+        margin-bottom: 220px;
+        margin-right: 150px;
         
         font-size: 23px;  
-       
+        position: fixed;
 
   
     } 
     .home img{
         
-        width: 200px;
+        width: 160px;
         display: flex;
-        padding-top: -50%;
-        margin-right: 50%;
-        
+        padding-top: 45%;
+        margin-right: 90%;
         
     
         
