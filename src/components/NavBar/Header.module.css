@@ -42,7 +42,7 @@
 
 @media (max-width: 780px) { 
     .header a{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .header img{
@@ -73,15 +73,16 @@
 
     .show {
         display: flex;
-        width: 23%;
+        width: 45%;
         height: auto;
         position: absolute;
         top: 50px;
         right: 0;
         background-color: var(--primary);
         flex-direction: column;
-        padding: 8px 20px 5px 13px;
-        gap: .5rem;
+        padding: 60px 20px 140px 13px;
+        gap: 2.5rem;
+        
       
 
     }
