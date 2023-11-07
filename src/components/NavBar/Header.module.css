@@ -41,8 +41,15 @@
 /* Celular menu sanduich. */
 
 @media (max-width: 780px) { 
- 
+    .header a{
+        font-size: 14px;
+    }
+
+    .header img{
+        margin-right: 320px;
+    }
     .menuButton {
+        
         width: 30px;
         height: 30px;
         position: absolute;
@@ -66,14 +73,14 @@
 
     .show {
         display: flex;
-        width: 25%;
+        width: 23%;
         height: auto;
         position: absolute;
         top: 50px;
         right: 0;
         background-color: var(--primary);
         flex-direction: column;
-        padding: 20px;
+        padding: 10px 20px 5px 13px;
         gap: .5rem;
 
     }
