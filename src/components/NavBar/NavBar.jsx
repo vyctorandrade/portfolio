@@ -27,6 +27,7 @@ function NavBar() {
         
         <nav 
         className={`${styles.menuSandwich} ${ showMenu ? styles.show : '' }`}
+        onClick={toggleMenu} 
         >
         <Link to='/'>Home</Link>
         <Link to='sobre'>Sobre</Link>
