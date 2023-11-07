@@ -43,8 +43,7 @@
 @media (max-width: 780px) { 
     .header a{
         font-size: 22px;
-        display: flex;
-        align-items: center;
+        
     }
 
     .header img{
