@@ -42,11 +42,11 @@
 
 @media (max-width: 780px) { 
     .header a{
-        font-size: 16px;
+        font-size: 14.5px;
     }
 
     .header img{
-        margin-right: 260px;
+        margin-right: 210px;
     }
     .menuButton {
         
