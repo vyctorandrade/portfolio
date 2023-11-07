@@ -43,6 +43,7 @@
 @media (max-width: 780px) { 
     .header a{
         font-size: 22px;
+        text-align: center;
         
     }
 
