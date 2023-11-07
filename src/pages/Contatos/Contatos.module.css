@@ -32,7 +32,11 @@
 /* Celular. */
 
 @media (min-width: 300px) and (max-width: 600px) { 
- 
+    
+.contatos h2{
+    margin-top: -50px;
+}
+
     .icones {
         gap: 0.5rem;
     }
