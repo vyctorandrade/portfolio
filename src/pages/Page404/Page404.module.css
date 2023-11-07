@@ -1,5 +1,5 @@
 .titulo2{
-    padding-top: 2rem;
+    padding-top: 9rem;
 }
 
 .textos{
@@ -21,12 +21,35 @@
     font-weight: bold;
 }
 
+
+
 /* Celular. */
 
 @media (min-width: 300px) and (max-width: 600px) { 
  
-
-  
+    .titulo2{
+        padding-top: 9rem;
+        font-size: 20px;
+    }
+    
+    .textos{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .texto_grande, .texto_vermelho {
+        font-size: 50px;
+        color: var(--red);
+        font-weight: bold;
+    }
+    
+    .texto_vermelho{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 
    
     
