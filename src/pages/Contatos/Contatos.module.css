@@ -28,3 +28,30 @@
     color: var(--primary);
     transition: all 0.5s;
 }
+
+/* Celular. */
+
+@media (min-width: 300px) and (max-width: 600px) { 
+ 
+    .icones {
+        gap: 0.5rem;
+    }
+  
+
+   
+    
+}  
+
+/* Tablet  */
+
+@media (min-width: 768px ) and (max-width: 992px) { 
+
+    .contatos {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+
+
+ 
+}  

@@ -20,3 +20,30 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/* Celular. */
+
+@media (min-width: 300px) and (max-width: 600px) { 
+ 
+
+  
+
+   
+    
+}  
+
+/* Tablet  */
+
+@media (min-width: 768px ) and (max-width: 992px) { 
+
+
+    .texto_grande {
+        font-size: 150px;
+    }
+    .texto_vermelho {
+        font-size: 1rem;
+    }
+
+
+ 
+}  

@@ -1,5 +1,5 @@
 .projetos{
-    padding-block: 80px;
+    padding-block: 90px;
 
 }
 
@@ -18,4 +18,43 @@
     margin-block: 2.5rem;
 
 }
+
+
+
+/* Celular. */
+
+@media (min-width: 300px) and (max-width: 600px) { 
+ 
+
+  
+
+   
+    
+   }  
+
+   /* Tablet  */
+   
+@media (min-width: 768px ) and (max-width: 992px) { 
+ 
+
+  
+
+   
+    
+   }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

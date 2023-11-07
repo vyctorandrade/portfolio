@@ -14,3 +14,29 @@
     bottom: 0;
 }
 
+
+/* Celular. */
+
+@media (min-width: 300px) and (max-width: 600px) { 
+ 
+    .footer {
+        font-size: 0.75rem; /* 12px */
+    }
+  
+
+   
+    
+}  
+
+/* Tablet  */
+
+@media (min-width: 768px ) and (max-width: 992px) { 
+
+    .footer {
+        font-size: 1rem; /* 16px */
+    }
+
+
+
+ 
+}  
